@@ -21,7 +21,7 @@ async function handleGenerateNewShortURL(req, res) {
   });
 
   // Return the generated short ID in the response
-  let shorturl = `http://localhost:8080/${shortID}`
+  let shorturl = `https://url-shortner-nj7k.onrender.com/${shortID}`
   return res.json({ generated_url: shorturl });
 }
 
